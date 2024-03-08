@@ -1,5 +1,6 @@
 const ButtonSvg = (white) => (
   <>
+
     <svg
       className="absolute top-0 left-0"
       width="21"
@@ -13,6 +14,7 @@ const ButtonSvg = (white) => (
         d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"
       />
     </svg>
+  
     <svg
       className="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]"
       height="44"
@@ -41,6 +43,7 @@ const ButtonSvg = (white) => (
         </>
       )}
     </svg>
+
     <svg
       className="absolute top-0 right-0"
       width="21"
